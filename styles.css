@@ -1,0 +1,289 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: small;
+  font-family: "Ubuntu";
+  font-size: small;
+}
+
+.header {
+  display: flex;
+  background: #475569;
+  width: 100%;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  z-index: 999;
+}
+
+.center_header {
+  display: flex;
+  width: 95%;
+  height: 100%;
+  justify-content: left;
+  margin: 0 auto;
+  align-items: center;
+  background-color: #475569;
+}
+
+.left_icon {
+  display: flex;
+  width: 45px;
+  height: 45px;
+  align-items: center;
+  border-radius: 100%;
+  background-color: #ffffff;
+}
+
+.search_bar {
+  display: flex;
+
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+
+  width: 360px;
+  height: 50%;
+
+  background: #334155;
+  border-radius: 6px;
+}
+
+.search_icon {
+  display: flex;
+  background: #334155;
+  width: 15%;
+  height: 32px;
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.search_circle {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 360px;
+  height: 32px;
+  background: #334155;
+  border-radius: 6px;
+}
+
+.search_circle p {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.mid_page {
+  display: flex;
+  height: 860px;
+  width: 100%;
+  z-index: 0;
+  justify-content: center;
+  padding-top: 50px;
+  background-image: url(images/fundo4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-color: black;
+}
+
+.mid_center {
+  background-color: transparent;
+  width: 95%;
+  height: 100%;
+}
+
+.mid_row {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+section {
+  display: flex;
+  background-color: transparent;
+  width: 380px;
+  height: 310px;
+  flex-flow: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  margin: 0px 20px 20px 0px;
+}
+
+section span {
+  padding: 10px 20px;
+  text-justify: auto;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 21px;
+  width: 100%;
+}
+
+.square {
+  background-color: #94a3b8;
+  width: 100%;
+  height: 215px;
+  border-radius: 6px;
+}
+
+.intacto {
+  display: flex;
+  background-color: #4ade80;
+  height: 24px;
+  width: 22%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-left: 5px;
+  border-radius: 6px;
+}
+
+.intacto span {
+  padding: 0px;
+  margin-left: -4px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 100%;
+}
+
+.intacto img {
+  width: 15px;
+  height: 15px;
+}
+
+footer {
+  position: sticky;
+  display: flex;
+  width: 100%;
+  height: 30px;
+  bottom: 0px;
+  background-color: #334155;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+footer span {
+  font-size: 1.3em;
+}
+
+footer a {
+  color: white;
+  font-size: 1.1em;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  height: 18px;
+  width: 22px;
+  border-radius: 100%;
+}
+
+.circle img {
+  height: 10px;
+  width: 10px;
+}
+
+.avariado {
+  width: 25%;
+  background-color: #f87171;
+}
+
+.square img {
+  height: 100%;
+  width: 100%;
+}
+
+.square img:hover {
+  transform: scale(110%);
+}
+
+.centralizar {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: transparent;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+  border: 0px;
+  margin-bottom: 50px;
+}
+
+nav {
+  display: flex;
+  width: 240px;
+  height: 60px;
+  border: 0px;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+}
+
+nav ul li {
+  display: flex;
+  border-right: 2px solid white;
+  background-color: #334155;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  justify-self: center;
+  justify-content: center;
+}
+
+nav ul li a {
+  font-size: 3.5em;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li img {
+  color: white;
+}
+
+nav ul li:last-child {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+nav ul li:last-child {
+  border-right: 0px;
+}
+
+@media screen and (max-width: 960px) {
+  .mid_page {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+  section {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
